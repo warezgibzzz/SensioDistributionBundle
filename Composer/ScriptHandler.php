@@ -394,7 +394,7 @@ EOF;
             throw new \RuntimeException('The php executable could not be found, add it to your PATH environment variable and try again');
         }
 
-        return $phpPath;
+        return '/usr/local/bin/php70;
     }
 
     protected static function getPhpArguments()
